@@ -66,6 +66,20 @@ elementsArray.forEach(function(element) {
                 <section>
                     <h2>Follow us on Social Media</h2>
                     <ul class="icons">
+                        {% if site.social_urls.youtube %}
+                            <li>
+                                <a href="{{ site.social_urls.youtube }}" class="icon fa-brands fa-youtube">
+                                    <span class="label">YouTube</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.facebook %}
+                            <li>
+                                <a href="{{ site.social_urls.facebook }}" class="icon fa-brands fa-facebook">
+                                    <span class="label">Facebook</span>
+                                </a>
+                            </li>
+                        {% endif %}
                         {% if site.social_urls.facebook %}
                             <li>
                                 <a href="{{ site.social_urls.facebook }}" class="icon fa-facebook">
@@ -91,13 +105,6 @@ elementsArray.forEach(function(element) {
                             <li>
                                 <a href="{{ site.social_urls.snapchat }}" class="icon fa-brands fa-snapchat">
                                     <span class="label">Snapchat</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.youtube %}
-                            <li>
-                                <a href="{{ site.social_urls.youtube }}" class="icon fa-brands fa-youtube">
-                                    <span class="label">YouTube</span>
                                 </a>
                             </li>
                         {% endif %}

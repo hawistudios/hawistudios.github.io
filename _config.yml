@@ -13,7 +13,7 @@ header:
 footer:
  name: "Your window to the natural world."
  bio: "We are a small studio with a group of people who are passionate about creating meaningful and entertaining content using cameras, music, and sound effects"
- github: "Want to experience nature in 4K? Just visit our <a href=\"https://www.youtube.com/@HAWIStudios/shorts\">YouTube Channel</a> ;)"
+ github: "Want to experience nature in 4K? Just visit our <a href=\"https://www.youtube.com/@HAWIStudios/shorts\">YouTube Channel</a> 😉"
 web_design: "Harvey Wincent"
 # Configure which exif data to display
 # Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
@@ -24,3 +24,4 @@ social_urls:
   youtube: "https://www.youtube.com/@HAWIStudios/"
   tiktok: "https://www.tiktok.com/@hawistudios"
   snapchat: "https://www.snapchat.com/add/hawistudios"
+  facebook: "https://www.facebook.com/HAWIStudios"
